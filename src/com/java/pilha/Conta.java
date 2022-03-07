@@ -1,7 +1,7 @@
 package com.java.pilha;
 
 public class Conta {
-    public void deposita(){
-
+    void deposita() throws MinhaExcecao{
+        throw new MinhaExcecao("Exception lançada!");
     }
 }
